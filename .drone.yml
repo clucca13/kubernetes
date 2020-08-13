@@ -4,6 +4,6 @@ name: default
 
 steps:
 - name: build
-  image: golang
+  image: alpine/k8s
   commands:
   - make quick-release

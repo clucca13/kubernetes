@@ -4,6 +4,6 @@ name: default
 
 steps:
 - name: build
-  image: alpine/k8s
+  image: alpine
   commands:
   - make quick-release
